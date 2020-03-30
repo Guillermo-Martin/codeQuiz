@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Code Quiz</title>
+</head>
+<body>
+   
+    <div class="jumbotron">
+        <h1 class="display-3">Code Quiz</h1>
+        <p class="lead">Last Person to Play: <span id="lastPlay"></span></p>  
+        <p class="lead">Score: <span id="lastScore"></span></p>
+        <p id="header" class="lead">
+            Test your JavaScript knowledge.  You have 60 seconds to answer 10 questions.  You get one point for each correct answer.  Be careful, though!  A wrong answer deducts 10 seconds from your time!
+        </p>
+        <div id="timer" class="lead"></div>
+        <hr class="my-4">
+        <div id="questions" class="lead"></div>
+        <ul id="answersDiv" class="list-unstyled"></ul>
+        <button id="startButton" class="btn btn-dark btn-lg" role="button">Start Quiz</button>
+        <div id="response" class="lead"></div>
+        <div id="form"></div>
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- JavaScript File -->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 # Code Quiz
 
-https://guillermo-martin.github.io/homework4/
+https://guillermo-martin.github.io/codeQuiz/
 
 ## Description
 This app presents a user with a quiz regarding JavaScript. When a user presses the "Start Quiz" button, a timer starts and a question and answer set it presented to the user. When the user selects the correct answer, it notifies them that they are correct and 1 point is added to the user's scores. If the user selects the incorrect answer, it notifies them that they are incorrect and 10 seconds are subtracted from the timer. If the timer reaches zero or the user answers all of the questions, the game ends and presents the user their final score. The user can input their initials and save their score. After inputing their initials, the user has an opportunity to play again or clear the current score.
